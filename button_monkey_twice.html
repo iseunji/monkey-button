@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>버튼 누르기</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f7f7f7;
+      font-family: sans-serif;
+    }
+    button {
+      font-size: 24px;
+      padding: 20px 40px;
+      border: none;
+      border-radius: 12px;
+      background-color: #ffcd00;
+      color: #333;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+      margin: 20px;
+    }
+    button:hover {
+      background-color: #ffdb4d;
+    }
+  </style>
+</head>
+<body>
+  <button onclick="alert('나는 두 번 속은 원숭이다 🐒')">버튼 누르기</button>
+</body>
+</html>
